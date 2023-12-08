@@ -1,0 +1,8 @@
+/* styles.module.css for BodyComponent */
+.container{
+    display: flex;
+    padding: 0 10%;
+    justify-content: space-between;
+    border-top: .4px solid white;
+    margin-top: 30px;
+}

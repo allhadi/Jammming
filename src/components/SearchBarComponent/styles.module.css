@@ -1,0 +1,15 @@
+/* styles.module.css for SearchBar */
+.container{
+    margin: 30px 20px auto;
+}
+
+.container input{
+    border: 1px rgb(100, 114, 109);
+    border-radius: 10px;
+    padding: 8px 25px;
+    width: 350px;
+}
+
+.container input:focus{
+    border: 1px rgb(0, 0, 0) !important;
+}

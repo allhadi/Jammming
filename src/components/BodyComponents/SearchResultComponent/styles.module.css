@@ -1,0 +1,52 @@
+/* styles.module.css for SearchResultComponent */
+
+h1,h2,p{
+    margin: 0;
+    padding: 0;
+}
+
+.Container{
+    background-color: aliceblue;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding: 5px 10px;
+}
+
+li:nth-child(1){
+    border-top: 1px solid white;
+}
+
+li h2,p{
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+li h2{
+    color: springgreen;
+}
+
+li p{
+    color: cyan;
+}
+
+.songInfo{
+    width: 200px;
+}
+
+.icon{
+    padding: 20px 0 20px 20px;
+    text-align: right;
+}
+
+.icon span{
+    font-size: 30px;
+    text-align: right;
+    font-weight: bolder;
+    color: blanchedalmond;
+}
